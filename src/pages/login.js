@@ -49,7 +49,7 @@ const LoginPage = ({}) => {
             var user = {
               email: fields.email,
               password: fields.password,
-              role: "agent",
+              role: "admin",
             }
             localStorage.setItem('user', JSON.stringify(user));
             navigate("/");
